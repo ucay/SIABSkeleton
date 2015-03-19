@@ -1,0 +1,18 @@
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+ihsan_simple_crud_index:
+    resource: @IhsanSimpleAdminBundle/Controller
+    type: annotation
+
+ihsan_simple_crud_security:
+    resource: @IhsanSimpleAdminBundle/Security
+    type: annotation
+
+fos_user_security:
+    resource: "@FOSUserBundle/Resources/config/routing/security.xml"
+
+fos_user_profile:
+    resource: "@FOSUserBundle/Resources/config/routing/profile.xml"
+    prefix: /profile
