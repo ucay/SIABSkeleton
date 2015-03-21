@@ -811,12 +811,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ihsanudin/SimpleAdminBundle.git",
-                "reference": "1cf547c4729942ab1d07b0cf1b423badaf70d698"
+                "reference": "c38d29c47db0ac473585e9416583ca542f142924"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ihsanudin/SimpleAdminBundle/zipball/1cf547c4729942ab1d07b0cf1b423badaf70d698",
-                "reference": "1cf547c4729942ab1d07b0cf1b423badaf70d698",
+                "url": "https://api.github.com/repos/ihsanudin/SimpleAdminBundle/zipball/c38d29c47db0ac473585e9416583ca542f142924",
+                "reference": "c38d29c47db0ac473585e9416583ca542f142924",
                 "shasum": ""
             },
             "require": {
@@ -862,7 +862,7 @@
                 "simple admin",
                 "symfony admin"
             ],
-            "time": "2015-03-19 15:55:21"
+            "time": "2015-03-20 02:16:47"
         },
         {
             "name": "incenteev/composer-parameter-handler",
