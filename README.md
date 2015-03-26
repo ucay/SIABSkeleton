@@ -8,6 +8,10 @@ untuk Anda yang tidak ingin dipusingkan dalam membuat halaman Admin/Backend.
 [SIAB Skeleton][2] adalah sebuah skeleton (contoh program yang dapat langsung dijalankan)
 dari SIAB Admin yang dapat digunakan langsung tanpa harus pusing dengan konfigurasi dan lain sebagainya.
 
+Requirements:
+
+* JRE
+
 Apa saja isinya?
 ----------------
 
@@ -26,7 +30,7 @@ Bagaimana Cara Installnya?
 
 * Install Menggunakan Composer
 
-``php composer.phar create/project symfonyid/siab-skeleton SIAB 1.0.10``
+``php composer.phar create/project symfonyid/siab-skeleton SIAB 1.0.11``
 
 * Buat Database dan Skema tabelnya
 
