@@ -26,7 +26,7 @@ Bagaimana Cara Installnya?
 
 * Install Menggunakan Composer
 
-``php composer.phar create/project symfonyid/siab-skeleton SIAB 1.0.6``
+``php composer.phar create/project symfonyid/siab-skeleton SIAB 1.0.7``
 
 * Buat Database dan Skema tabelnya
 
