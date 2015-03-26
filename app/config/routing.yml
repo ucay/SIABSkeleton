@@ -2,12 +2,16 @@ app:
     resource: "@AppBundle/Controller/"
     type:     annotation
 
-ihsan_simple_crud_index:
-    resource: @IhsanSimpleAdminBundle/Controller
+symfonian_indonesia:
+    resource: .
+    type: siab
+
+symfonian_indonesia_index:
+    resource: @SymfonianIndonesiaAdminBundle/Controller
     type: annotation
 
-ihsan_simple_crud_security:
-    resource: @IhsanSimpleAdminBundle/Security
+symfonian_indonesia_security:
+    resource: @SymfonianIndonesiaAdminBundle/Security
     type: annotation
 
 fos_user_security:
