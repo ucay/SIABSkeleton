@@ -1,69 +1,64 @@
-Symfony Standard Edition
-========================
+Symfonian Indonesia Admin Bundle (SIAB) Skeleton
+================================================
 
-Welcome to the Symfony Standard Edition - a fully-functional Symfony2
-application that you can use as the skeleton for your new applications.
+[Symfonian Indonesia Admin Bundle][1] adalah sebuah Admin Generator yang sangat powerfull
+serta mudah digunakan dan dikembangkan. Produk Asli buatan anak bangsa ini didedikasikan
+untuk Anda yang tidak ingin dipusingkan dalam membuat halaman Admin/Backend.
 
-For details on how to download and get started with Symfony, see the
-[Installation][1] chapter of the Symfony Documentation.
+[SIAB Skeleton][2] adalah sebuah skeleton (contoh program yang dapat langsung dijalankan)
+dari SIAB Admin yang dapat digunakan langsung tanpa harus pusing dengan konfigurasi dan lain sebagainya.
 
-What's inside?
---------------
+Apa saja isinya?
+----------------
 
-The Symfony Standard Edition is configured with the following defaults:
+* [SIAB Admin][1] tentunya
 
-  * An AppBundle you can use to start coding;
+* User Management menggunakan [FOSUserBundle][3]
 
-  * Twig as the only configured template engine;
+* Contoh CRUD lengkap menggunakan (Entity, Form, Controller)
 
-  * Doctrine ORM/DBAL;
+* Contoh Menu mengunakan [KNPMenuBundle][4]
 
-  * Swiftmailer;
+* DataFixtures untuk User menggunakan [DoctrineFixtures][5]
 
-  * Annotations enabled for everything.
+Bagaimana Cara Installnya?
+--------------------------
 
-It comes pre-configured with the following bundles:
+* Install Menggunakan Composer
 
-  * **FrameworkBundle** - The core Symfony framework bundle
+``php composer.phar create/project symfonyid/siab-skeleton SIAB``
 
-  * [**SensioFrameworkExtraBundle**][6] - Adds several enhancements, including
-    template and routing annotation capability
+* Buat Database dan Skema tabelnya
 
-  * [**DoctrineBundle**][7] - Adds support for the Doctrine ORM
+``cd SIAB``
 
-  * [**TwigBundle**][8] - Adds support for the Twig templating engine
+``php app/console doctrine:database:create``
 
-  * [**SecurityBundle**][9] - Adds security by integrating Symfony's security
-    component
+``php app/console doctrine:schema:install``
 
-  * [**SwiftmailerBundle**][10] - Adds support for Swiftmailer, a library for
-    sending emails
+* Jalankan Doctrine Fixtures
 
-  * [**MonologBundle**][11] - Adds support for Monolog, a logging library
+``php app/console doctrine:fixtures:load``
 
-  * [**AsseticBundle**][12] - Adds support for Assetic, an asset processing
-    library
+* Jalankan Web Server
 
-  * **WebProfilerBundle** (in dev/test env) - Adds profiling functionality and
-    the web debug toolbar
+``php app/console server:run``
 
-  * **SensioDistributionBundle** (in dev/test env) - Adds functionality for
-    configuring and working with Symfony distributions
+* Buka Browser
 
-  * [**SensioGeneratorBundle**][13] (in dev/test env) - Adds code generation
-    capabilities
+username: siab
+password: siab
 
-All libraries and bundles included in the Symfony Standard Edition are
-released under the MIT or BSD license.
+####Selamat Mencoba!!!####
 
-Enjoy!
+####Symfonian Indonesia Team####
 
-[1]:  http://symfony.com/doc/2.6/book/installation.html
-[6]:  http://symfony.com/doc/2.6/bundles/SensioFrameworkExtraBundle/index.html
-[7]:  http://symfony.com/doc/2.6/book/doctrine.html
-[8]:  http://symfony.com/doc/2.6/book/templating.html
-[9]:  http://symfony.com/doc/2.6/book/security.html
-[10]: http://symfony.com/doc/2.6/cookbook/email.html
-[11]: http://symfony.com/doc/2.6/cookbook/logging/monolog.html
-[12]: http://symfony.com/doc/2.6/cookbook/assetic/asset_management.html
-[13]: http://symfony.com/doc/2.6/bundles/SensioGeneratorBundle/index.html
+- Facebook: https://www.facebook.com/groups/520896581276140
+
+- Github: https://github.com/SymfonyId
+
+[1]: https://github.com/SymfonyId/AdminBundle
+[2]: https://github.com/SymfonyId/SIABSkeleton
+[3]: https://github.com/FriendsOfSymfony/FOSUserBundle
+[4]: https://github.com/KnpLabs/KnpMenuBundle
+[5]: https://github.com/doctrine/DoctrineFixturesBundle
