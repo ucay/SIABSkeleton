@@ -12,7 +12,7 @@ use Doctrine\Common\Collections\ArrayCollection;
 
 /**
  * @ORM\Entity
- * @ORM\Table(name="app_bagian")
+ * @ORM\Table(name="siab_idname")
  */
 class IdName implements EntityInterface
 {
