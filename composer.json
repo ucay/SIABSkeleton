@@ -1,8 +1,8 @@
 {
-    "name": "ihsanudin/symfony-ihsanudin-edition",
+    "name": "symfonyid/SIABSkeleton",
     "license": "MIT",
     "type": "project",
-    "description": "The \"Symfony Standard Edition\" distribution",
+    "description": "SIAB Skeleton, Skeleton untuk Symfonian Indonesia Admin Bundle",
     "autoload": {
         "psr-0": { "": "src/", "SymfonyStandard": "app/" }
     },
