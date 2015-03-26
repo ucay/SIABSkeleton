@@ -35,5 +35,8 @@ final class LoadUserData implements FixtureInterface, ContainerAwareInterface
         $user->setRoles(array('ROLE_SUPER_ADMIN'));
         $user->setPassword($userPassword);
         $user->setEnabled(true);
+
+        $manager->persist($user);
+        $manager->flush();
     }
 }
