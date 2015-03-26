@@ -11,24 +11,24 @@ dari SIAB Admin yang dapat digunakan langsung tanpa harus pusing dengan konfigur
 Apa saja isinya?
 ----------------
 
-[SIAB Admin][1] tentunya
+* [SIAB Admin][1] tentunya
 
-User Management menggunakan [FOSUserBundle][3]
+* User Management menggunakan [FOSUserBundle][3]
 
-Contoh CRUD lengkap menggunakan (Entity, Form, Controller)
+* Contoh CRUD lengkap menggunakan (Entity, Form, Controller)
 
-Contoh Menu mengunakan [KNPMenuBundle][4]
+* Contoh Menu mengunakan [KNPMenuBundle][4]
 
-DataFixtures untuk User menggunakan [DoctrineFixtures][5]
+* DataFixtures untuk User menggunakan [DoctrineFixtures][5]
 
 Bagaimana Cara Installnya?
 --------------------------
 
-1. Install Menggunakan Composer
+* Install Menggunakan Composer
 
 ``php composer.phar create/project symfonyid/SIABSkeleton SIAB``
 
-2. Buat Database dan Skema tabelnya
+* Buat Database dan Skema tabelnya
 
 ``cd SIAB``
 
@@ -36,15 +36,15 @@ Bagaimana Cara Installnya?
 
 ``php app/console doctrine:schema:install``
 
-3. Jalankan Doctrine Fixtures
+* Jalankan Doctrine Fixtures
 
 ``php app/console doctrine:fixtures:load``
 
-4. Jalankan Web Server
+* Jalankan Web Server
 
 ``php app/console server:run``
 
-5. Buka Browser
+* Buka Browser
 
 ####Selamat Mencoba!!!####
 
